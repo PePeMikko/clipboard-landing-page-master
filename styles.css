@@ -1,0 +1,93 @@
+.attribution  { 
+    font-size: 0.6875rem; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    font-size: 18px;
+    background-image: url(/images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.images {
+    display: block;
+    margin: auto;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    font-family: "Bai Jamjuree";
+}
+
+p {
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+}
+
+.top, .bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    border-radius: 25px;
+    border: 2px solid black;
+    width: 12rem;
+}
+
+
+.left {
+    background-color: hsl(171, 66%, 44%);
+    margin: 1vh;
+}
+
+.right {
+    background-color: hsl(233, 100%, 69%);
+    margin: 1vh;
+}
+
+.box > p {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.comp {
+    display: flex;
+    flex-direction: row;
+}
+
+.computer {
+    display: block;
+    margin-left: 10vh;
+}
+
+.comp-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+    'blacklist snippet preview';
+    grid-auto-columns: 1fr;
+}
+
+.blacklist {
+    grid-area: blacklist;
+}
+
+.snippet {
+    grid-area: snippet;
+}
+
+.preview {
+    grid-area: preview;
+}
