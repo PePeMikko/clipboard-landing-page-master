@@ -57,7 +57,7 @@ p {
     color: whitesmoke;
 }
 
-.comp {
+.row {
     display: flex;
     flex-direction: row;
 }
@@ -90,4 +90,24 @@ p {
 
 .preview {
     grid-area: preview;
+}
+
+.google {
+    margin: 4vh;
+}
+
+.ibm {
+    margin: 4vh;
+}
+
+.mircosoft {
+    margin: 4vh;
+}
+
+.hp {
+    margin: 4vh;
+}
+
+.vector {
+    margin: 4vh;
 }
